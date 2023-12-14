@@ -12,21 +12,21 @@ if user_selection == random_item:
     print("Выбор компьютера", random_item)
     print("Ничья")
 
-if user_selection == "Камень" and random_item == "Ножницы":
+elif user_selection == "Камень" and random_item == "Ножницы":
     print("Выбор компьютера", random_item)
     print("Вы победили")
-if user_selection == "Камень" and random_item == "Бумага":
+elif user_selection == "Камень" and random_item == "Бумага":
     print("Выбор компьютера", random_item)
     print("Вы проиграли")
-if user_selection == "Ножницы" and random_item == "Бумага":
+elif user_selection == "Ножницы" and random_item == "Бумага":
     print("Выбор компьютера", random_item)
     print("Вы победили!")
-if user_selection == "Ножницы" and random_item == "Камень":
+elif user_selection == "Ножницы" and random_item == "Камень":
     print("Выбор компьютера",random_item)
     print("Вы проиграли")
-if user_selection == "Бумага" and random_item == "Камень":
+elif user_selection == "Бумага" and random_item == "Камень":
     print("Выбор компьютера", random_item)
     print("Вы победили")
-if user_selection == "Бумага" and random_item == "Ножницы":
+elif user_selection == "Бумага" and random_item == "Ножницы":
     print("Выбор компьютера", random_item)
     print("Вы проиграли")

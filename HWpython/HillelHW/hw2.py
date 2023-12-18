@@ -21,22 +21,3 @@ elif (
 else:
     print("Выбор компьютера", random_item)
     print("Вы проиграли")
-
-# elif user_selection == "Камень" and random_item == "Ножницы":
-#     print("Выбор компьютера", random_item)
-#     print("Вы победили")
-# elif user_selection == "Камень" and random_item == "Бумага":
-#     print("Выбор компьютера", random_item)
-#     print("Вы проиграли")
-# elif user_selection == "Ножницы" and random_item == "Бумага":
-#     print("Выбор компьютера", random_item)
-#     print("Вы победили!")
-# elif user_selection == "Ножницы" and random_item == "Камень":
-#     print("Выбор компьютера",random_item)
-#     print("Вы проиграли")
-# elif user_selection == "Бумага" and random_item == "Камень":
-#     print("Выбор компьютера", random_item)
-#     print("Вы победили")
-# elif user_selection == "Бумага" and random_item == "Ножницы":
-#     print("Выбор компьютера", random_item)
-#     print("Вы проиграли")
